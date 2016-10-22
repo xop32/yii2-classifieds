@@ -11,7 +11,7 @@ use yii\filters\AccessControl;
 /**
  *
  */
-class Controller extends Controller
+class DefaultController extends Controller
 {
     /**
      * @inheritdoc
