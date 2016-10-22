@@ -1,0 +1,21 @@
+{
+    "name": "mohammad-adibi/yii2-classifieds",
+    "description": "this is a classified ads extension for Yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","classifieds","advertisement"],
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Mohammad adibi",
+            "email": "mohammadadibi1365@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "classifieds\\": ""
+        }
+    }
+}
