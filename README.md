@@ -25,7 +25,12 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
+Once the extension is installed
 
-```php
-<?= \classifieds\AutoloadExample::widget(); ?>```
+1. add into modules config in your main config file
+
+'modules' => [
+    'classifieds' =>  [
+        'class' => 'classifieds\Module'
+    ]       
+]
