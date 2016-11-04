@@ -12,11 +12,12 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "mohammad-mahdy/yii2-jdate": "*"
+        "mohammad-mahdy/yii2-jdate": "*",
+        "mohammad-adibi/yii2-megadropdown": "*"
     },
     "autoload": {
         "psr-4": {
-            "classifieds\\": ""
+            "adibi\\classifieds\\": ""
         }
     }
 }

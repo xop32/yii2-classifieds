@@ -10,13 +10,6 @@ use yii\base\Module as BaseModule;
  */
 class Module extends BaseModule
 {
-
-  /**
-   * Coun of ads in home page
-   * @var int
-   */
-   public $countOfAds
-
     public function init()
     {
         parent::init();
